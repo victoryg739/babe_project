@@ -89,14 +89,12 @@ export default function Page() {
       {isLoginSuccessful && (
         <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white p-10 rounded shadow-lg text-lg">
-            <div></div>
-            <a
-              href="https://mothership.sg/2022/04/keppel-bto-hdb-flats/#:~:text=6%2C000%20HDB%20flats%20to%20be,Asia%20and%20around%20the%20world"
-              target="_blank"
-              className="text-blue-500 underline"
-            >
-              Click here for more
-            </a>
+            <div className="flex flex-col space-y-4">
+              <img src="/1.jpeg" alt="Example" className="w-64 h-64 object-cover" />
+              <img src="/2.jpeg" alt="Example" className="w-64 h-64 object-cover" />
+              <img src="/3.jpeg" alt="Example" className="w-64 h-64 object-cover" />
+            </div>
+
             <button
               className="bg-red-500 text-white px-4 py-2 mt-10 rounded mt-4 flex "
               onClick={() => setIsLoginSuccessful(false)}
@@ -121,7 +119,7 @@ export default function Page() {
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white p-10 rounded shadow-lg">
             <div className="text-lg mb-4">
-              Baby, I know you've been working very hard these past few weeks. I just want to let you know I appreciate
+              Baby, I know you've been working very hard these past few months. I just want to let you know I appreciate
               your effort and that I want you to be happy. Take some time for yourself, relax, and remember that I'm
               always here to support and cherish you.
             </div>
