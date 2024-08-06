@@ -48,7 +48,7 @@ export default function Page() {
   };
 
   const handlePasswordSubmit = () => {
-    const correctPassword = "iamagoldfish";
+    const correctPassword = "080502";
     if (password === correctPassword) {
       setIsLoginSuccessful(true);
       setIsLockModalOpen(false);
